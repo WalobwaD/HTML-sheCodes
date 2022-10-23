@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+.current-weather{
+    margin-top: 3%;
+    padding: 5%;
+    font-weight: bold;
+}
+.current-weather h1{
+    font-size: 1.7rem;
+}
+.predicted-weather p{
+    padding: 20px;
+    font-size: 1.2rem;
+
+}
+button{
+    background-color: blue;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor:pointer;
+}
+.footer{
+    margin-top: 10px;
+}
+.predicted-weather p:hover{
+    background-color:darkkhaki;
+    cursor: pointer;
+
+}
